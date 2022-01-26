@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quick Notes by Shakeb</title>
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
 </head>
 
@@ -20,7 +20,8 @@
     <!-- .....NavBar Starts....  -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark   ">
-        <a class="navbar-brand" href="#"> <b>Quick Notes</b> <span style="font-size:10px">by </span><span style="font-size:11px;">SHAKEB</span></a>
+        <a class="navbar-brand" href="#"> <b>Quick Notes</b> <span style="font-size:10px">by </span><span
+                style="font-size:11px;">SHAKEB</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,7 +31,8 @@
             <ul class="navbar-nav mr-auto">
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search Your Notes" aria-label="Search">
+                <input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search Your Notes"
+                    aria-label="Search">
                 <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
@@ -40,12 +42,19 @@
     <!-- .....Container Starts.....  -->
 
     <div class="container my-3 ">
-        <h1 style="font-family: 'Lobster', cursive; background: linear-gradient(90deg, rgba(238,174,202,1) 1%, rgba(31,117,218,1) 92%);" class="text-center">Welcome To Quick Notes</h1>
+        <h1 style="font-family: 'Lobster', cursive; background: linear-gradient(90deg, rgba(238,174,202,1) 1%, rgba(31,117,218,1) 92%);"
+            class="text-center">Welcome To Quick Notes</h1>
         <div class="card my-4">
-            <div style="height:50vh;" class="card-body ">
+            <div style="height:80vhvh;" class="card-body ">
+                <h5 class="card-title ">Add title</h5>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="addTitle" aria-describedby="title"
+                        placeholder="Enter title">
+                </div>
                 <h5 class="card-title ">Compose Your Note</h5>
                 <div class="form-group">
-                    <textarea style="height:30vh;"  class="form-control " id="addTxt" rows="3" placeholder="Compose note here!"></textarea>
+                    <textarea style="height:30vh;" class="form-control " id="addTxt" rows="3"
+                        placeholder="Compose note here!"></textarea>
                 </div>
                 <button class="btn btn-primary" id="addBtn">Compose</button>
             </div>
